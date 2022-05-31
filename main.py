@@ -6,4 +6,4 @@ try:
             arr = line.strip().split(', ')
             print(f"{arr[0]} is {arr[1]} year old {arr[2]}")
 except Exception:
-    print(f'Sorry we dont have {animal}')
+    print(f'Sorry we don\'t have {animal}')
